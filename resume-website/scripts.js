@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let response = await fetch('https://ejkvu0n4s5.execute-api.us-east-1.amazonaws.com/count')
     let data = await response.json()
     console.log(data)
-    counter.innerHTML = `Views ${data}`
+    counter.innerHTML = `This profile has been viewed ${data} times`
   }
    
   updateCounter()

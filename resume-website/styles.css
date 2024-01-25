@@ -3,11 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+.top-section{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.counter-number{
+    display:flex;
+    justify-content: center;
+}
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    font-family: 'Cutive Mono';
+	background-color:rgba(0, 0, 0, 0.236);
+	color:rgba(255,255,255,1.00);
+}
+
+body * {
+    z-index: 20;
+    color: rgba(0,0,0,1.00);
 }
 
 img {
@@ -61,7 +76,6 @@ section h2 {
 }
 
 #timeline .entry {
-    border-left: 3px solid #333;
     margin-bottom: 5px;
     cursor: pointer;
 }
