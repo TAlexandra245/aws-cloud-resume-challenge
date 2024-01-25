@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+#contactInfo {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #fff; 
+    padding: 15px;
+}
+
+section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+#timeline .entry {
+    border-left: 3px solid #333;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#timeline .entry-header {
+    background: #e2e2e2;
+    padding: 10px;
+    margin-left: -3px; 
+}
+
+#timeline .entry-header:hover {
+    background: #ccc; 
+    color: #333; 
+}
+
+#timeline .entry-content p {
+    padding: 5px 10px;
+    background: #f9f9f9;
+    border-left: 3px solid #333;
+    display: block; 
+}
+
+section ul {
+    list-style: inside square;
+    padding: 0 20px;
+}
+
+section ul li {
+    padding: 2px 0;
+}
+
+.entry.active .entry-header {
+    background-color: #e2e2e2; 
+    color: #333; 
+}
+
+.entry.active .entry-content {
+    display: block; 
+}
+
+.entry .entry-header:after {
+    content: ' (click to expand)';
+    font-size: 0.8em;
+    color: #666;
+}
+
+.entry.active .entry-header:after {
+    content: ' (click to collapse)';
+    font-size: 0.8em;
+    color: #666; 
+}
