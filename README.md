@@ -15,8 +15,7 @@
 <section> 
 </section>
   <section>
-  ![Diagram](./draw/resume_cloud.drawio.png)
-  
+  ![Diagram](./draw/resume_cloud.png)
   <h2> AWS services used </h2>
     <ul>
     <li>Route 53</li>
